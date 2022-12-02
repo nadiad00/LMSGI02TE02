@@ -1,0 +1,84 @@
+<!-- 
+    Fecha: 28/11/2022
+    Autor: Nadia D'alessio
+    Módulo: Lenguaje de marcas y sistemas de gestión de la información
+    Unidad: 02
+    Tarea Evaluativa 02
+
+    Enunciado: En esta actividad se pide desarrollar el sitio web diseñado en la primera tarea de evaluación.
+
+    Recuerda que en él, se debe mostrar información sobre algo. Puede ser el catálogo de una empresa, una web de reseñas de libros, de recetas...
+
+    El sitio tendrá al menos 5 páginas Web y deberá contar con las siguientes funcionalidades:
+
+        +Presentación del sitio
+        +Zona de navegación principal que permita el acceso a distintos contenidos.
+        +Páginas de contenidos con las siguientes particularidades:
+            -Listado de noticias relacionadas con el tema elegido, que contenga enlaces de "seguir leyendo" y enlace con una página externa.
+            -Listado de productos, recetas, reseñas de libros... con link a información detallada.
+            -Información detallada de al menos un producto, receta,  libro,... 
+                *Esta página de información detallada deberá estar creada por nosotros mismos y deberá incorporar algún elemento multimedia como imagen, vídeo, etc.
+            -Formulario para contactar y enviar comentarios por correo.
+    
+    Para ello, se generarán todos los ficheros HTML y CSS que se necesiten.
+
+    La página principal se llamará index.html y los nombres de las páginas restantes serán coherentes con lo que contengan. El resto de ficheros (imágenes, estilos...) se organizarán en carpetas. Los nombres de ficheros y carpetas también tienen que ser coherentes y homogéneos.
+
+    Se aconseja hacer uso de etiquetas semánticas para estructurar las páginas, así como de flexbox para un mejor diseño "responsive".
+
+    Todos los documentos generados deberán estar bien formados y validados.
+
+    Se valorará utilizar las etiquetas aprendidas en clase pero también introducir elementos nuevos, aprendidos por cuenta propia.
+
+    El sitio web se publica en Internet en alguna de las plataforma disponibles para ello. Por ejemplo: Github-Pages.
+ -->
+
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title> Skull-Face Bookseller Honda-san</title>
+
+    <!-- Hojas CSS -->
+    <!-- Hojas CSS -->
+    <link rel="stylesheet" href="css/estilos-comunes.css">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="media/logo-no-background.png" alt="logo">
+        <nav>
+            <a href="index.html">Homepage</a>
+            <a href="categorias.html">Categorías</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <p>Skull-Face Bookseller Honda-san</p>
+        <article class="datos">
+            <img src="media/covers/honda-san.png" alt="cover Honda-san">
+            <ul style="list-style-type: none;">
+                <li>Status: Completo</li>
+                <li>Autor: Honda</li>
+                <li>Género: comedia / Slice of Life </li>
+                <li>Título alternativo: Honda-san the Skeleton Bookstore Employee; Skeleton Bookstore Employee Honda; Gaikotsu Shotenin Honda-san;ガイコツ書店員本田さん; 書店裡的骷髏店員本田;</li>
+            </ul>
+        </article>
+        <article class="sinopsis">
+            <p>Sinopsis</p>
+            <p>Gaikotsu Shotenin Honda-san se basa en las experiencias de la vida real de la autora Honda durante sus días como empleada en una librería. La historia sigue la vida del personal de una librería mientras se explica cómo funciona dicho sistema.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>Nadia D'alessio | LMSGI02 2022</p>
+    </footer>
+</body>
+</html>

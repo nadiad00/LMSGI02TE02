@@ -1,0 +1,84 @@
+<!-- 
+    Fecha: 28/11/2022
+    Autor: Nadia D'alessio
+    Módulo: Lenguaje de marcas y sistemas de gestión de la información
+    Unidad: 02
+    Tarea Evaluativa 02
+
+    Enunciado: En esta actividad se pide desarrollar el sitio web diseñado en la primera tarea de evaluación.
+
+    Recuerda que en él, se debe mostrar información sobre algo. Puede ser el catálogo de una empresa, una web de reseñas de libros, de recetas...
+
+    El sitio tendrá al menos 5 páginas Web y deberá contar con las siguientes funcionalidades:
+
+        +Presentación del sitio
+        +Zona de navegación principal que permita el acceso a distintos contenidos.
+        +Páginas de contenidos con las siguientes particularidades:
+            -Listado de noticias relacionadas con el tema elegido, que contenga enlaces de "seguir leyendo" y enlace con una página externa.
+            -Listado de productos, recetas, reseñas de libros... con link a información detallada.
+            -Información detallada de al menos un producto, receta,  libro,... 
+                *Esta página de información detallada deberá estar creada por nosotros mismos y deberá incorporar algún elemento multimedia como imagen, vídeo, etc.
+            -Formulario para contactar y enviar comentarios por correo.
+    
+    Para ello, se generarán todos los ficheros HTML y CSS que se necesiten.
+
+    La página principal se llamará index.html y los nombres de las páginas restantes serán coherentes con lo que contengan. El resto de ficheros (imágenes, estilos...) se organizarán en carpetas. Los nombres de ficheros y carpetas también tienen que ser coherentes y homogéneos.
+
+    Se aconseja hacer uso de etiquetas semánticas para estructurar las páginas, así como de flexbox para un mejor diseño "responsive".
+
+    Todos los documentos generados deberán estar bien formados y validados.
+
+    Se valorará utilizar las etiquetas aprendidas en clase pero también introducir elementos nuevos, aprendidos por cuenta propia.
+
+    El sitio web se publica en Internet en alguna de las plataforma disponibles para ello. Por ejemplo: Github-Pages.
+ -->
+
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Solo Leveling</title>
+
+    <!-- Hojas CSS -->
+    <!-- Hojas CSS -->
+    <link rel="stylesheet" href="css/estilos-comunes.css">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="media/logo-no-background.png" alt="logo">
+        <nav>
+            <a href="index.html">Homepage</a>
+            <a href="categorias.html">Categorías</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <p>Solo Leveling</p>
+        <article class="datos">
+            <img src="media/covers/solo-leveling.jpeg" alt="cover Solo Leveling">
+            <ul style="list-style-type: none;">
+                <li>Status: Completo</li>
+                <li>Autor:  Jang Sung-Lak , Gee So-Lyung</li>
+                <li>Género: Acción / Aventura /Fantasía</li>
+                <li>Título alternativo: 나 혼자만 레벨업</li>
+            </ul>
+        </article>
+        <article class="sinopsis">
+            <p>Sinopsis</p>
+            <p>En un mundo en el que ciertos humanos poseen habilidades mágicas, llamados cazadores, deben luchar contra monstruos para proteger a la raza humana de una aniquilación segura, un cazador muy débil llamado Sung Jinwoo se encuentra en una lucha en la que solo puede tratar de sobrevivir. Un día, después de sobrevivir por poco a una mazmorra doble abrumadoramente poderosa que casi acaba con todo su grupo, un programa misterioso llamado Sistema lo elige como su único jugador y, a su vez, le da la sorprendente habilidad de subir de nivel sin límites. Sigue el viaje de Jinwoo mientras lucha contra todo tipo de enemigos, tanto humanos como monstruos, para descubrir los secretos que entrañan las mazmorras y la verdadera fuente de sus poderes.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>Nadia D'alessio | LMSGI02 2022</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!-- 
+    Fecha: 28/11/2022
+    Autor: Nadia D'alessio
+    Módulo: Lenguaje de marcas y sistemas de gestión de la información
+    Unidad: 02
+    Tarea Evaluativa 02
+
+    Enunciado: En esta actividad se pide desarrollar el sitio web diseñado en la primera tarea de evaluación.
+
+    Recuerda que en él, se debe mostrar información sobre algo. Puede ser el catálogo de una empresa, una web de reseñas de libros, de recetas...
+
+    El sitio tendrá al menos 5 páginas Web y deberá contar con las siguientes funcionalidades:
+
+        +Presentación del sitio
+        +Zona de navegación principal que permita el acceso a distintos contenidos.
+        +Páginas de contenidos con las siguientes particularidades:
+            -Listado de noticias relacionadas con el tema elegido, que contenga enlaces de "seguir leyendo" y enlace con una página externa.
+            -Listado de productos, recetas, reseñas de libros... con link a información detallada.
+            -Información detallada de al menos un producto, receta,  libro,... 
+                *Esta página de información detallada deberá estar creada por nosotros mismos y deberá incorporar algún elemento multimedia como imagen, vídeo, etc.
+            -Formulario para contactar y enviar comentarios por correo.
+    
+    Para ello, se generarán todos los ficheros HTML y CSS que se necesiten.
+
+    La página principal se llamará index.html y los nombres de las páginas restantes serán coherentes con lo que contengan. El resto de ficheros (imágenes, estilos...) se organizarán en carpetas. Los nombres de ficheros y carpetas también tienen que ser coherentes y homogéneos.
+
+    Se aconseja hacer uso de etiquetas semánticas para estructurar las páginas, así como de flexbox para un mejor diseño "responsive".
+
+    Todos los documentos generados deberán estar bien formados y validados.
+
+    Se valorará utilizar las etiquetas aprendidas en clase pero también introducir elementos nuevos, aprendidos por cuenta propia.
+
+    El sitio web se publica en Internet en alguna de las plataforma disponibles para ello. Por ejemplo: Github-Pages.
+ -->
+
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Noticias</title>
+
+    <!-- Hojas CSS -->
+    <!-- Hojas CSS -->
+    <link rel="stylesheet" href="css/estilos-comunes.css">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="media/logo-no-background.png" alt="logo">
+        <nav>
+            <a href="index.html">Homepage</a>
+            <a href="categorias.html">Categorías</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <article class="noticia">
+            <img src="media/noticias/detective-conan.webp" alt="cartel Detective Conan">
+            <p>Desvelada oficialmente la película Detective Conan: Kurogane no Submarine</p>
+            <p>El póster dibujado por Gosho Aoyama revela el grueso de personajes que participarán en la película, incluido...</p>
+            <a href="https://ramenparados.com/desvelada-oficialmente-la-pelicula-detective-conan-kurogane-no-submarine/" target="_blank">...Leer más</a>
+        </article>
+        <article class="noticia">
+            <img src="media/noticias/me-enamore-de-la-villana-1.jpg" alt="cover Me enamoré de la villana">
+            <p>Promoción tote-bag Me enamoré de la villana</p>
+            <p>Durante el próximo Salón del Manga de Barcelona, la editorial dará la oportunidad de conseguir la tote-bag.</p>
+            <a href="https://ramenparados.com/promocion-tote-bag-me-enamore-de-la-villana/" target="_blank">...Leer más</a>
+        </article>
+        <article class="noticia">
+            <img src="media/noticias/recruit.webp" alt=" cover The New Recruit">
+            <p>Los webtoons de Moscareto llegarán en español</p>
+            <p>Lo ha anunciado la propia Moscareto a través de Twitter.</p>
+            <a href="https://ramenparados.com/los-webtoons-de-moscareto-llegaran-en-espanol/" target="_blank">...Leer más</a>
+        </article>
+        <article class="noticia">
+            <img src="media/noticias/blueperiod.jpg" alt="cover Blue Period">
+            <p>El tomo 12 de Blue Period tendrá doble edición</p>
+            <p>Contará con una edición normal y una edición especial y limitada que incluirá como extra...</p>
+            <a href="https://ramenparados.com/el-tomo-12-de-blue-period-tendra-doble-edicion/" target="_blank">...Leer más</a>
+        </article>
+    </main>
+
+    <footer>
+        <p>Nadia D'alessio | LMSGI02 2022</p>
+    </footer>
+</body>
+</html>

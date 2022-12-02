@@ -1,0 +1,115 @@
+<!-- 
+    Fecha: 28/11/2022
+    Autor: Nadia D'alessio
+    Módulo: Lenguaje de marcas y sistemas de gestión de la información
+    Unidad: 02
+    Tarea Evaluativa 02
+
+    Enunciado: En esta actividad se pide desarrollar el sitio web diseñado en la primera tarea de evaluación.
+
+    Recuerda que en él, se debe mostrar información sobre algo. Puede ser el catálogo de una empresa, una web de reseñas de libros, de recetas...
+
+    El sitio tendrá al menos 5 páginas Web y deberá contar con las siguientes funcionalidades:
+
+        +Presentación del sitio
+        +Zona de navegación principal que permita el acceso a distintos contenidos.
+        +Páginas de contenidos con las siguientes particularidades:
+            -Listado de noticias relacionadas con el tema elegido, que contenga enlaces de "seguir leyendo" y enlace con una página externa.
+            -Listado de productos, recetas, reseñas de libros... con link a información detallada.
+            -Información detallada de al menos un producto, receta,  libro,... 
+                *Esta página de información detallada deberá estar creada por nosotros mismos y deberá incorporar algún elemento multimedia como imagen, vídeo, etc.
+            -Formulario para contactar y enviar comentarios por correo.
+    
+    Para ello, se generarán todos los ficheros HTML y CSS que se necesiten.
+
+    La página principal se llamará index.html y los nombres de las páginas restantes serán coherentes con lo que contengan. El resto de ficheros (imágenes, estilos...) se organizarán en carpetas. Los nombres de ficheros y carpetas también tienen que ser coherentes y homogéneos.
+
+    Se aconseja hacer uso de etiquetas semánticas para estructurar las páginas, así como de flexbox para un mejor diseño "responsive".
+
+    Todos los documentos generados deberán estar bien formados y validados.
+
+    Se valorará utilizar las etiquetas aprendidas en clase pero también introducir elementos nuevos, aprendidos por cuenta propia.
+
+    El sitio web se publica en Internet en alguna de las plataforma disponibles para ello. Por ejemplo: Github-Pages.
+ -->
+
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Categorías</title>
+
+    <!-- Hojas CSS -->
+    <!-- Hojas CSS -->
+    <link rel="stylesheet" href="css/estilos-comunes.css">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="media/logo-no-background.png" alt="logo">
+        <nav>
+            <a href="index.html">Homepage</a>
+            <a href="categorias.html">Categorías</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+    
+    <hr>
+
+    <main>
+        <article class="categoria">
+            <p>Acción</p>
+            <a href="jujutsu-kaisen.html">
+                <img src="media/covers/Jujutsu.webp" alt="Jujutsu Kaisen">
+            </a>
+            <a href="sclasses.html">
+                <img src="media/covers/SClass.webp" alt="The S-Classes That I Raised">
+            </a>
+            <a href="tcf.html">
+                <img src="media/covers/TCF.webp" alt="Trash of the Count Family">
+            </a>
+            <a href="solo-leveling.html">
+                <img src="media/covers/solo-leveling.jpeg" alt="Solo Leveling">
+            </a>
+        </article>
+        <article class="categoria">
+            <p>Terror</p>
+            <a href="chainsaw-man.html">
+                <img src="media/covers/chainsaw.jpg" alt="Chainsaw Man">
+            </a>
+            <a href="dolly.html">
+                <img src="media/covers/dolly.jpg" alt="Dolly Kill Kill">
+            </a>
+            <a href="sweet-home.html">
+                <img src="media/covers/sweet-home.jpg" alt="Sweet Home">
+            </a>
+            <a href="mieruko.html">
+                <img src="media/covers/mieruko.jpg" alt="Mieruko-chan">
+            </a>
+        </article>
+        <article class="categoria">
+            <p>Comedia</p>
+            <a href="nichijou.html">
+                <img src="media/covers/Nichijou.jpg" alt="Nichijou">
+            </a>
+            <a href="spyfamily.html">
+                <img src="media/covers/spyfamily.jpg" alt="Spy X Family">
+            </a>
+            <a href="saikik.html">
+                <img src="media/covers/saikik.webp" alt="The disastrous life of Saiki K">
+            </a>
+            <a href="honda-san.html">
+                <img src="media/covers/honda-san.png" alt="Skull-Face Bookseller Honda-san">
+            </a>
+        </article>
+    </main>
+
+    <footer>
+        <p>Nadia D'alessio | LMSGI02 2022</p>
+    </footer>
+</body>
+</html>

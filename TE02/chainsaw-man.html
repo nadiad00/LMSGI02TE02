@@ -1,0 +1,88 @@
+<!-- 
+    Fecha: 28/11/2022
+    Autor: Nadia D'alessio
+    Módulo: Lenguaje de marcas y sistemas de gestión de la información
+    Unidad: 02
+    Tarea Evaluativa 02
+
+    Enunciado: En esta actividad se pide desarrollar el sitio web diseñado en la primera tarea de evaluación.
+
+    Recuerda que en él, se debe mostrar información sobre algo. Puede ser el catálogo de una empresa, una web de reseñas de libros, de recetas...
+
+    El sitio tendrá al menos 5 páginas Web y deberá contar con las siguientes funcionalidades:
+
+        +Presentación del sitio
+        +Zona de navegación principal que permita el acceso a distintos contenidos.
+        +Páginas de contenidos con las siguientes particularidades:
+            -Listado de noticias relacionadas con el tema elegido, que contenga enlaces de "seguir leyendo" y enlace con una página externa.
+            -Listado de productos, recetas, reseñas de libros... con link a información detallada.
+            -Información detallada de al menos un producto, receta,  libro,... 
+                *Esta página de información detallada deberá estar creada por nosotros mismos y deberá incorporar algún elemento multimedia como imagen, vídeo, etc.
+            -Formulario para contactar y enviar comentarios por correo.
+    
+    Para ello, se generarán todos los ficheros HTML y CSS que se necesiten.
+
+    La página principal se llamará index.html y los nombres de las páginas restantes serán coherentes con lo que contengan. El resto de ficheros (imágenes, estilos...) se organizarán en carpetas. Los nombres de ficheros y carpetas también tienen que ser coherentes y homogéneos.
+
+    Se aconseja hacer uso de etiquetas semánticas para estructurar las páginas, así como de flexbox para un mejor diseño "responsive".
+
+    Todos los documentos generados deberán estar bien formados y validados.
+
+    Se valorará utilizar las etiquetas aprendidas en clase pero también introducir elementos nuevos, aprendidos por cuenta propia.
+
+    El sitio web se publica en Internet en alguna de las plataforma disponibles para ello. Por ejemplo: Github-Pages.
+ -->
+
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Chainsaw Man</title>
+
+    <!-- Hojas CSS -->
+    <!-- Hojas CSS -->
+    <link rel="stylesheet" href="css/estilos-comunes.css">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="media/logo-no-background.png" alt="logo">
+        <nav>
+            <a href="index.html">Homepage</a>
+            <a href="categorias.html">Categorías</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <p>Chainsaw Man</p>
+        <article class="datos">
+            <img src="media/covers/chainsaw.jpg" alt="cover Chainsaw Man">
+            <ul style="list-style-type: none;">
+                <li>Status: En curso</li>
+                <li>Autor: Tatsuki Fujimoto</li>
+                <li>Género: Acción / Terror / Drama</li>
+                <li>Título alternativo: Chainsawman, チェンソーマン</li>
+            </ul>
+        </article>
+        <article class="sinopsis">
+            <p>Sinopsis</p>
+            <p>La historia se desarrolla en un mundo donde los demonios nacen de los miedos humanos. Los demonios suelen ser peligrosos y malévolos, su poder es proporcional a la fuerza con que se incita su miedo correspondiente en la conciencia humana colectiva. Sin embargo, los humanos pueden firmar contratos con ellos para usar sus poderes. Las personas que se especializan en la caza y el empleo de demonios se denominan cazadores de demonios. Los demonios se originan en el infierno y existen en un ciclo de vida interminable entre la Tierra y el Infierno: renacen en la Tierra cuando son asesinados en el Infierno, y viceversa. En el infierno viven demonios extremadamente poderosos llamados Primal Fears, que nunca han sido asesinados. El tránsito entre los dos mundos parece estar supervisado por el Diablo del Infierno.
+
+                Un diablo puede, en determinadas condiciones, habitar el cuerpo de un ser humano muerto, adquiriendo algunos de sus recuerdos y personalidad; tal criatura se llama Demonio. Se dice que los demonios que naturalmente tienen una apariencia humana son benévolos con los humanos.
+                
+                Los eventos de la historia tienen lugar en 1997, en una línea de tiempo alternativa donde la Unión Soviética todavía existe, y muchos eventos históricos como el Holocausto parecen no haber ocurrido nunca.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>Nadia D'alessio | LMSGI02 2022</p>
+    </footer>
+</body>
+</html>

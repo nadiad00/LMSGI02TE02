@@ -1,0 +1,46 @@
+body {
+    padding: 20px;
+    background: linear-gradient(to bottom, #0d0d0d 0%, #262626 131%);
+    color: #fffcf6;
+    font-family: 'Azeret Mono', monospace;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 0.7fr 2fr 2fr;
+    align-items: center;
+}
+
+header img {
+    width: 15vw;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #ffffe6;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #FDF500;
+    margin: 1em 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #FDF500;
+    padding: 5px;
+    color: #0d0d0d;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+}

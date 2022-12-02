@@ -1,0 +1,84 @@
+<!-- 
+    Fecha: 28/11/2022
+    Autor: Nadia D'alessio
+    Módulo: Lenguaje de marcas y sistemas de gestión de la información
+    Unidad: 02
+    Tarea Evaluativa 02
+
+    Enunciado: En esta actividad se pide desarrollar el sitio web diseñado en la primera tarea de evaluación.
+
+    Recuerda que en él, se debe mostrar información sobre algo. Puede ser el catálogo de una empresa, una web de reseñas de libros, de recetas...
+
+    El sitio tendrá al menos 5 páginas Web y deberá contar con las siguientes funcionalidades:
+
+        +Presentación del sitio
+        +Zona de navegación principal que permita el acceso a distintos contenidos.
+        +Páginas de contenidos con las siguientes particularidades:
+            -Listado de noticias relacionadas con el tema elegido, que contenga enlaces de "seguir leyendo" y enlace con una página externa.
+            -Listado de productos, recetas, reseñas de libros... con link a información detallada.
+            -Información detallada de al menos un producto, receta,  libro,... 
+                *Esta página de información detallada deberá estar creada por nosotros mismos y deberá incorporar algún elemento multimedia como imagen, vídeo, etc.
+            -Formulario para contactar y enviar comentarios por correo.
+    
+    Para ello, se generarán todos los ficheros HTML y CSS que se necesiten.
+
+    La página principal se llamará index.html y los nombres de las páginas restantes serán coherentes con lo que contengan. El resto de ficheros (imágenes, estilos...) se organizarán en carpetas. Los nombres de ficheros y carpetas también tienen que ser coherentes y homogéneos.
+
+    Se aconseja hacer uso de etiquetas semánticas para estructurar las páginas, así como de flexbox para un mejor diseño "responsive".
+
+    Todos los documentos generados deberán estar bien formados y validados.
+
+    Se valorará utilizar las etiquetas aprendidas en clase pero también introducir elementos nuevos, aprendidos por cuenta propia.
+
+    El sitio web se publica en Internet en alguna de las plataforma disponibles para ello. Por ejemplo: Github-Pages.
+ -->
+
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Jujutsu Kaisen</title>
+
+    <!-- Hojas CSS -->
+    <!-- Hojas CSS -->
+    <link rel="stylesheet" href="css/estilos-comunes.css">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="media/logo-no-background.png" alt="logo">
+        <nav>
+            <a href="index.html">Homepage</a>
+            <a href="categorias.html">Categorías</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <p>Jujutsu Kaisen</p>
+        <article class="datos">
+            <img src="media/covers/Jujutsu.webp" alt="cover Jujutsu Kaisen">
+            <ul style="list-style-type: none;">
+                <li>Status: En curso</li>
+                <li>Autor: Akutami Gege </li>
+                <li>Género: Sobrenatural / Acción / Fantasía</li>
+                <li>Título alternativo: Sorcery Fight; 呪術廻戦;</li>
+            </ul>
+        </article>
+        <article class="sinopsis">
+            <p>Sinopsis</p>
+            <p>Yūji Itadori es un estudiante de secundaria que vive en Sendai con su abuelo. Se une al Club de Investigación de lo Oculto, a pesar de poseer un talento innato para el deporte. Va a visitar a su abuelo moribundo al hospital todos los días. En su lecho de muerte, su abuelo inculca dos poderosos mensajes dentro de Yuji: «siempre ayuda a la gente» y «muere rodeado de gente». Estas dos ideas aparentemente provienen de los propios arrepentimientos de su abuelo. Después de la muerte de su abuelo, Yūji interpreta estos mensajes como una declaración: todos merecen «una muerte adecuada». Luego se enfrenta a Megumi Fushiguro, un hechicero que le informa de un talismán de categoría especial en su escuela con el que Yūji recientemente se puso en contacto. Sus amigos del Club de lo Oculto abrieron el talismán, un dedo podrido, que atrajo a la escuela a las Maldiciones, criaturas que surgen a través de emociones negativas. Incapaz de derrotar a las maldiciones debido a su falta de poderes mágicos, Yūji se traga el dedo para proteger a Megumi y sus amigos y se convierte en el recipiente de Ryōmen Sukuna, una poderosa maldición. Debido a la naturaleza malvada de Sukuna, las reglas dictan que debe ser exorcisado (y, por extensión, a Yūji) de inmediato. Sin embargo, a pesar de estar poseído, Yūji todavía puede mantener el control de su cuerpo la mayor parte del tiempo. Al ver esto, Satoru Gojō, el maestro de Megumi, decide llevarlo a la escuela Tokyo Prefectural Jujutsu High School para proponer un plan a sus superiores: posponer la sentencia de muerte de Yūji hasta que consuma todos los dedos de Sukuna, permitiéndoles matar a Sukuna de una vez por todas.4​</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>Nadia D'alessio | LMSGI02 2022</p>
+    </footer>
+</body>
+</html>

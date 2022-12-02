@@ -1,0 +1,87 @@
+<!-- 
+    Fecha: 28/11/2022
+    Autor: Nadia D'alessio
+    Módulo: Lenguaje de marcas y sistemas de gestión de la información
+    Unidad: 02
+    Tarea Evaluativa 02
+
+    Enunciado: En esta actividad se pide desarrollar el sitio web diseñado en la primera tarea de evaluación.
+
+    Recuerda que en él, se debe mostrar información sobre algo. Puede ser el catálogo de una empresa, una web de reseñas de libros, de recetas...
+
+    El sitio tendrá al menos 5 páginas Web y deberá contar con las siguientes funcionalidades:
+
+        +Presentación del sitio
+        +Zona de navegación principal que permita el acceso a distintos contenidos.
+        +Páginas de contenidos con las siguientes particularidades:
+            -Listado de noticias relacionadas con el tema elegido, que contenga enlaces de "seguir leyendo" y enlace con una página externa.
+            -Listado de productos, recetas, reseñas de libros... con link a información detallada.
+            -Información detallada de al menos un producto, receta,  libro,... 
+                *Esta página de información detallada deberá estar creada por nosotros mismos y deberá incorporar algún elemento multimedia como imagen, vídeo, etc.
+            -Formulario para contactar y enviar comentarios por correo.
+    
+    Para ello, se generarán todos los ficheros HTML y CSS que se necesiten.
+
+    La página principal se llamará index.html y los nombres de las páginas restantes serán coherentes con lo que contengan. El resto de ficheros (imágenes, estilos...) se organizarán en carpetas. Los nombres de ficheros y carpetas también tienen que ser coherentes y homogéneos.
+
+    Se aconseja hacer uso de etiquetas semánticas para estructurar las páginas, así como de flexbox para un mejor diseño "responsive".
+
+    Todos los documentos generados deberán estar bien formados y validados.
+
+    Se valorará utilizar las etiquetas aprendidas en clase pero también introducir elementos nuevos, aprendidos por cuenta propia.
+
+    El sitio web se publica en Internet en alguna de las plataforma disponibles para ello. Por ejemplo: Github-Pages.
+ -->
+
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>SPY x FAMILY</title>
+
+    <!-- Hojas CSS -->
+    <!-- Hojas CSS -->
+    <link rel="stylesheet" href="css/estilos-comunes.css">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="media/logo-no-background.png" alt="logo">
+        <nav>
+            <a href="index.html">Homepage</a>
+            <a href="categorias.html">Categorías</a>
+            <a href="noticias.html">Noticias</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <p>SPY x FAMILY</p>
+        <article class="datos">
+            <img src="media/covers/spyfamily.jpg" alt="cover Spy x Family">
+            <ul style="list-style-type: none;">
+                <li>Status: En curso</li>
+                <li>Autor: Endou Tastuya</li>
+                <li>Género: Acción / Comedia / Shounen</li>
+                <li>Título alternativo: Spy family; SPY×FAMILY</li>
+            </ul>
+        </article>
+        <article class="sinopsis">
+            <p>Sinopsis</p>
+            <p>Spy × Family narra las aventuras del espía Twilight (Crepúsculo en inglés) quien trabaja para el servicio de inteligencia WISE de la ficticia república de Westalis y cuyo deber es mantener la paz entre dicho país y su hostil vecino Ostania, un país enemigo en el cual se infiltra con la misión de interceptar a Dónovan Desmond, una poderosa figura de Ostania que representa la mayor amenaza para la paz entre ambos países. Para cumplir su misión, el espía asume la falsa identidad de Loid Forger a la vez que se ve obligado formar una familia falsa con una esposa y un hijo que pueda asistir a la prestigiosa Academia Edén con la esperanza en que pueda acercarse más a Desmond. Por lo tanto, Loid adopta a una niña huérfana de nombre Anya; más adelante, toma como esposa a una joven solitaria y amable llamada Yor Briar.
+
+                Sin embargo, Loid ignora que tanto Anya como Yor son personas muy diferentes a lo que aparentan. Yor es una letal asesina conocida Thorn Princess (Princesa de Espinas en inglés) quien aceptó ser la pareja de Loid y unirse a su familia falsa como coartada para alejar posibles sospechas de la doble vida que lleva. Por su parte, Anya es una niña huérfana dotada con la habilidad de leer los pensamientos de las personas a su alrededor —de manera que es la única que conoce los secretos de Loid y Yor— y hará todo lo posible por cumplir las expectativas de Loid y esmerarse en evitar que sus padres descubran su secreto para vivir al lado de su familia en paz. Posteriormente, se les une un perro llamado Bond el cual tiene los poderes de ver el futuro.
+                
+                Los tres (junto a su perro) intentan vivir como una familia funcional, pero ninguno posee una idea clara o realista de lo que es una vida normal o una familia corriente lo que ocasiona durante toda la historia situaciones hilarantes e incómodas para ellos y las personas que les rodean.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>Nadia D'alessio | LMSGI02 2022</p>
+    </footer>
+</body>
+</html>
